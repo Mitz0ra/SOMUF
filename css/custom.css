@@ -1,3 +1,17 @@
+.homee {
+    background-image: url("../uploads/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contato {
+    text-align: center;
+    background-image: url("../uploads/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
 .btng {
     right: 6%;
     bottom: 25px;
@@ -19,6 +33,7 @@
 }
 
 .obit {
+    text-align: center;
     background-image: url("../images/bg.png");
     background-repeat: no-repeat;
     background-color: grey;
