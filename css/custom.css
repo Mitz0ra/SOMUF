@@ -5,6 +5,7 @@
 }
 
 .homee {
+    width: 100%;
     background-image: url("../uploads/home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,13 +18,21 @@
     background-repeat: no-repeat;
 }
 
+.vendas {
+    text-align: center;
+    max-width: 100%;
+    background-image: url("../uploads/fundovendas.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+}
+
 .btng {
     right: 6%;
     bottom: 25px;
     position: absolute;
     background-color: #f1b739;
     border: 1px solid black;
-    color: black;
+    color: rgb(90, 90, 90);
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
@@ -71,7 +80,7 @@
     padding-top: 10px;
 	font-size: 16px;
 	font-style: italic;
-	color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 	padding-bottom: 10px;
 	padding-left: 15px;
 }
@@ -87,12 +96,127 @@
     background-image: url('uploads/nossosplanos.jpg');
 }
 
-.escondida {
-    display: none;
-    width: 0px;
-    height: 0px;
+.centro {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.mostra {
-    display: block;
+.voltarinicio {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #049ed6 5%, #049ed6 100%);
+	background-color:#049ed6;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+
+.voltarinicio:hover {
+	background:linear-gradient(to bottom, #049ed6 5%, #049ed6 100%);
+	background-color:#049ed6;
+}
+
+.voltarinicio:active {
+	position:relative;
+	top:1px;
+}
+
+
+.tamanho{
+    max-width:100%;
+    padding: 5px;
+}
+
+.btncomprar {
+	box-shadow:inset 0px 1px 0px 0px #f9eca0;
+	background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+	border-radius:6px;
+	border:1px solid #b8b8b8;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ded17c;
+}
+
+.btncomprar:hover {
+	background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+
+.btncomprar:active {
+	position:relative;
+	top:1px;
+}
+
+.btndireita {
+    align-items: left;
+}
+
+.txtvendas {
+    text-align: left;
+    color: #242424;
+}
+
+.btn_adquirirplano {
+	box-shadow: 0px 0px 5px 0px #000000;
+	background:linear-gradient(to bottom, #d6fa5f 5%, #d6fa5f 100%);
+	background-color:#d6fa5f;
+	border-radius:20px;
+	border:2px solid #d6fa5f;
+	display: block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:16px;
+	padding:20px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 1px #000000;
+    margin-left:auto;
+    margin-right:auto;
+}
+.btn_adquirirplano:hover {
+	background:linear-gradient(to bottom, #d6fa5f 5%, #d6fa5f 100%);
+	background-color:#d6fa5f;
+}
+.btn_adquirirplano:active {
+	position: relative;
+	top:1px;
+}
+
+.btnfb {
+	box-shadow:inset 0px 0px 2px 1px #000000;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:20px;
+	border:1px solid #337fed;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+    margin-left:auto;
+    margin-right:auto;
+}
+.btnfb:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.btnfb:active {
+	position:relative;
+	top:1px;
 }
